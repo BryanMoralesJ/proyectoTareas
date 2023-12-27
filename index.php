@@ -11,6 +11,7 @@ require_once("language/lang.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/functions.js"></script>
+    <script src="assets/js/validator.js"></script>
     <title><?= $config['tituloWeb']; ?></title>
 </head>
 <body>
@@ -23,13 +24,14 @@ require_once("language/lang.php");
                 <h1 class="contenedor_sesion">Login</h1>
                 <input type="text" name="username" id="username" placeholder="Write your username here">
                 <input type="password" name="password" id="password" placeholder="Write your password here">
-                <label for="language">Select your language</label>
-                <select name="lang">
+                <label for="lang">Select your language</label>
+                <select name="lang" id="lang">
                     <option value="en">English</option>
                     <option value="es">Español</option>
-                </select> <br/>
+                </select>
                 <input type="submit" value="Submit" name="submit">
             </form>
+            <a href="#" class="registro">Don't have an account, register now!</a>
         </div>
     </main>
 </body>
