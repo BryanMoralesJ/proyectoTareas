@@ -1,12 +1,12 @@
 <?php
 
-    //Variable idioma donde almacenaremos los idiomas que podrá seleccionar el usuario al entrar a la WEB
+    //Almacenamos los lenguajes para mostrarlos con un texto largo
     $idioma = [
         'es' => 'Español',
         'en' => 'Inglés',
     ];
 
-    //Variable lenguajes donde se podrá configurar los textos con los idiomas permitidos.
+    //Añadir los lenguajes para traducir la web
     $lenguajes = [
         'es' => [
             'username' => 'Nombre de usuario',
@@ -17,7 +17,6 @@
             'firstname' => 'Nombre completo',
             'lastname1' => 'Primer apellido',
             'lastname2' => 'Segundo apellido'
-
         ],
         'en' => [
             'username' => 'Username',

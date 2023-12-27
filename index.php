@@ -22,7 +22,7 @@ require_once("language/lang.php");
         <div class="contenedor">
             <form action="" method="POST">
                 <h1 class="contenedor_sesion">Login</h1>
-                <input type="text" name="username" id="username" placeholder="Write your username here">
+                <input type="email" name="email" id="email" placeholder="Write your username here">
                 <input type="password" name="password" id="password" placeholder="Write your password here">
                 <label for="lang">Select your language</label>
                 <select name="lang" id="lang">

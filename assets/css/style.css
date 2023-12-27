@@ -55,7 +55,7 @@ body{
     padding-bottom: 10px;
 }
 
-.contenedor form input[type=text], input[type=password]{
+.contenedor form input[type=email], input[type=password]{
     width: 50%;
     border: none;
     outline: none;
